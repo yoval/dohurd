@@ -39,7 +39,7 @@ def jiexi1(REq):
     if organname :
         pass
     else:
-        organname = organname
+        organname = 'organname'
     certname = REqList['certname']
     with open('HuaiNan.csv','a',) as f:
         f.writelines([LegalMan,',',CorpName,',',AreaCode,',',certname,',',organname,',',endate,'\n'])
